@@ -61,7 +61,7 @@ export function LochLogo({ className }: { className?: string }) {
   );
 }
 
-export function Card1() {
+export function Card1({ className }: { className?: string }) {
   return (
     <svg
       width="204"
@@ -69,6 +69,7 @@ export function Card1() {
       viewBox="0 0 204 187"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <g filter="url(#filter0_dd_1_394)">
         <rect
@@ -202,7 +203,7 @@ export function Card1() {
   );
 }
 
-export function Card2() {
+export function Card2({ className }: { className?: string }) {
   return (
     <svg
       width="205"
@@ -210,6 +211,7 @@ export function Card2() {
       viewBox="0 0 205 187"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <g filter="url(#filter0_dd_1_367)">
         <rect
@@ -328,7 +330,7 @@ export function Card2() {
   );
 }
 
-export function Card3() {
+export function Card3({ className }: { className?: string }) {
   return (
     <svg
       width="205"
@@ -336,6 +338,7 @@ export function Card3() {
       viewBox="0 0 205 187"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
     >
       <g filter="url(#filter0_dd_1_380)">
         <rect

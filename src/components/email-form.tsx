@@ -3,7 +3,7 @@ import {
   FormControl,
   FormField,
   FormItem,
-  FormMessage
+  FormMessage,
 } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -26,6 +26,7 @@ export function EmailForm() {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     console.log(values);
+    window.location.href = "https://app.loch.one/welcome";
   }
   return (
     <div className="w-[365px] flex flex-col items-center space-y-6">

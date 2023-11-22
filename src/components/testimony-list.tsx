@@ -33,7 +33,11 @@ export function TestimonyList() {
 
   return (
     <div className="h-[139px] relative">
-      <div className="absolute w-[60vw] h-[139px] touch-pan-x overflow-y-scroll" {...events} ref={ref}>
+      <div
+        className="absolute w-[60vw] h-[139px] touch-pan-x overflow-y-scroll"
+        {...events}
+        ref={ref}
+      >
         <div className="flex gap-4 absolute pr-[25vw]">
           <Card className="flex flex-col w-[353px]">
             <CardHeader className="flex-row space-y-0 gap-2 items-center p-5">
