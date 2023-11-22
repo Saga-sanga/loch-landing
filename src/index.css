@@ -74,4 +74,40 @@
     @apply bg-background text-foreground;
     font-family: "Inter", sans-serif;
   }
+
+  h3 {
+    font-size: 2.4375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  h4 {
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  h5 {
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  small {
+    color: #96979a;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
 }
