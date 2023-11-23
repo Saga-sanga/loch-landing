@@ -34,7 +34,7 @@ export function TestimonyList() {
   return (
     <div className="h-[139px] relative">
       <div
-        className="absolute w-[60vw] h-[139px] touch-pan-x overflow-y-scroll"
+        className="absolute w-[60vw] h-[139px] touch-pan-x overflow-y-scroll scrollbar-hide"
         {...events}
         ref={ref}
       >

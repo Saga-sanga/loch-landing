@@ -8,7 +8,7 @@ function App() {
       <div className="bg-primary col-span-5">
         <HeroBanner />
       </div>
-      <div className="col-span-4 flex bg-background z-50 items-center justify-center">
+      <div className="col-span-4 flex bg-background z-50 pt-[30vh] lg:pt-0 lg:items-center justify-center">
         <EmailForm />
       </div>
     </div>

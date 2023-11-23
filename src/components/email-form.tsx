@@ -29,19 +29,22 @@ export function EmailForm() {
     window.location.href = "https://app.loch.one/welcome";
   }
   return (
-    <div className="w-[365px] flex flex-col items-center space-y-6">
+    <div className="max-w-[365px] w-full flex flex-col items-center space-y-6 mx-6">
       <h3 className="px-3 text-[#B0B1B3]">Sign up for exclusive access.</h3>
       <Form {...form}>
-        <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
+        <form
+          className="space-y-6 w-full max-w-[340px]"
+          onSubmit={form.handleSubmit(onSubmit)}
+        >
           <FormField
             control={form.control}
             name="email"
             render={({ field }) => (
-              <FormItem>
+              <FormItem className="">
                 <FormControl>
                   <Input
                     className={cn(
-                      "w-[340px] h-14 shadow px-6 rounded-lg",
+                      "w-full h-14 shadow px-6 rounded-lg",
                       form.formState.errors.email && "border-red-500"
                     )}
                     placeholder="Your email address"
@@ -52,7 +55,9 @@ export function EmailForm() {
               </FormItem>
             )}
           />
-          <Button className="w-[340px] h-14 rounded-lg">Get Started</Button>
+          <Button className="w-full h-14 rounded-lg">
+            Get Started
+          </Button>
         </form>
       </Form>
       <p className="font-semibold text-center">

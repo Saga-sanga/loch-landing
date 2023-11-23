@@ -41,7 +41,7 @@ export function HeroBanner() {
             height={306}
           />
         </div>
-        <div className="basis-1/2 text-right space-y-6 flex flex-col items-end">
+        <div className="basis-1/2 text-right space-y-6 flex flex-col items-end ml-4 mb-4">
           <Eye className="ml-auto" />
           <h4 className="text-[#F2F2F2] w-full max-w-[19.0625rem]">
             Watch what the whales are doing

@@ -44,8 +44,8 @@ export function CardList() {
   );
 
   return (
-    <div className="absolute">
-      <div ref={sliderRef} className="keen-slider">
+    <div className="absolute before:absolute before:h-48 before:w-12">
+      <div ref={sliderRef} className="keen-slider !h-48 !w-[420px] ml-8">
         <Card1 className="keen-slider__slide" />
         <Card2 className="keen-slider__slide" />
         <Card3 className="keen-slider__slide" />
