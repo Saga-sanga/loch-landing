@@ -11,8 +11,8 @@ export function HeroBanner() {
           "radial-gradient(123% 120% at 18% 109%, rgba(31, 169, 17, 0.81) 26%, #2F15D0 64.58%, rgba(0, 0, 0, 0.00) 100%)",
       }}
     >
-      <div className="flex mb-12 gap-2">
-        <div className="basis-1/2 w-20 space-y-4">
+      <div className="flex flex-col-reverse mb-12 gap-2 lg:flex-row">
+        <div className="basis-1/2  space-y-4">
           <BellIcon />
           <h4
             className="text-[#F2F2F2] w-full max-w-[19.5625rem]"
@@ -27,11 +27,11 @@ export function HeroBanner() {
             on-chain or when a dormant whale you care about becomes active.
           </p>
         </div>
-        <div className="basis-1/2 relative">
+        <div className="basis-1/2 relative pb-56 lg:pb-0">
           <CardList />
         </div>
       </div>
-      <div className="flex my-5 gap-2">
+      <div className="flex flex-col my-12 gap-12 lg:flex-row lg:my-5 lg:gap-2">
         <div className="basis-1/2">
           <img
             alt="Cohorts"

@@ -4,11 +4,11 @@ import { HeroBanner } from "./components/hero-banner";
 
 function App() {
   return (
-    <div className="grid grid-cols-9 min-h-screen">
-      <div className="bg-primary col-span-5">
+    <div className="flex flex-col-reverse sm:grid sm:grid-cols-9 min-h-screen">
+      <div className="bg-primary sm:col-span-5">
         <HeroBanner />
       </div>
-      <div className="col-span-4 flex bg-background z-50 pt-[30vh] lg:pt-0 lg:items-center justify-center">
+      <div className="sm:col-span-4 flex bg-background z-50 h-screen sm:sticky top-0 items-center justify-center">
         <EmailForm />
       </div>
     </div>
